@@ -17,3 +17,8 @@
 	2. users.txt 包含用户名的文件
 	3. addUsers.sh 需要自己完成编写的脚本文件（文件已经列出可以用到的命令）
 4. 用学到的Shell 脚本编程知识完成练习
+	1. 在工作目录下git branch 检查当前的分支情况（会发现现在只有master分支)
+	2. git checkout -b change_first_line 定义一个新的分支并转入这个新的分支进行工作
+	3. 修改addUsers.sh，添加第一行应该有的定义
+	4. git commit -a 提交刚才的修改，并写注解
+	5. git push 把刚才的工作发回服务器
