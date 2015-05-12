@@ -1,0 +1,11 @@
+#
+#
+# useradd
+cat < users.txt | xargs -n 1 useradd -m
+# chpasswd
+chpasswd < serc.txt
+# chown
+# chmod
+# edquota
+#
+
