@@ -1,16 +1,13 @@
 #!/bin/sh
-#
-for user in `cat /users.txt`
+for user in `cat users.txt`
 do
 	useradd $user
-	echo 123 | passwd --stdin $user
-	echo "$user successfully!!!"
+	echo "$user create success!"
 done
-chpasswd < /userpasswd.txt
+#chpasswd
 #chown
-chmod +x ./addUsers.sh
-chmod 755 addUsers.sh
-./addUsers.sh
-edquota -u user
+#chmod +x ./addUsers.sh
+#chmod 755 addUsers.sh
+#./addUsers.sh
+#edquota
 #
-
