@@ -1,9 +1,2 @@
-#
-#
-# useradd
-# chpasswd
-# chown
-# chmod
-# edquota
-#
+#!/bin/bash
 
