@@ -1,9 +1,7 @@
-#
+#!/bin/sh
 #
 # useradd
 # chpasswd
 # chown
 # chmod
-# edquota
-#
-
+# edquotal
