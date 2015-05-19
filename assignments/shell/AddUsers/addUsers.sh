@@ -1,5 +1,6 @@
 #!/bin/bash
-
+b=1
+a=10
 #
 # useradd
 # chpasswd
@@ -7,4 +8,4 @@
 # chmod
 # edquota
 #
-
+echo "Please into the number:"
