@@ -1,3 +1,4 @@
+#批量添加用户
 #!/bin/bash
 #chmod 700 addUsers.sh
 #./addUsers.sh
