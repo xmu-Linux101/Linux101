@@ -1,0 +1,6 @@
+#!/bin/bash
+for user in `cat /home/adobe/Linux101/assignments/shell/Addusers/users.txt`
+sudo useradd $user
+sudo passwd $user
+echo "$user create sucess!"
+done

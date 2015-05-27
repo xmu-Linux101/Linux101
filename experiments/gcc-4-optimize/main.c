@@ -1,32 +1,28 @@
-#include <stdio.h>
-#include <time.h>
-
-#include "include/calculator.h"
-
-#include "include/array.h"
-
-#define VECTOR_LENGTH 2048
-
-int main(void) {
-
-	int vector_a[VECTOR_LENGTH], vector_b[VECTOR_LENGTH], vector_c[VECTOR_LENGTH];
-
-	double time_start, time_end;	
-	array_fill_with(vector_a, VECTOR_LENGTH, 10);
-	array_fill_with(vector_b, VECTOR_LENGTH, 55);
-
-	time_start = clock();
-	
-	array_add(vector_a, vector_b, vector_c, VECTOR_LENGTH);
-
-	time_end = clock();
-
-	//array_print(vector_c, VECTOR_LENGTH);
-	
-	printf("Time used: %10.9f\n", (double) ( (time_end - time_start) / 1000.0) );
-
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#define max  1000
+int n=600,s,t;
+int a[max][max],b[max][max],c[max][max];
+int main()
+{
+	s=clock();
+	int i,j,k;
+	for(i=1;i<=n;i++)
+	for(j=1;j<=n;j++)
+	{
+		a[i][j]=i;
+		b[i][j]=j;
+	}
+	for(i=1;i<=n;i++)
+	for(j=1;j<=n;j++)
+	{
+		for(k=1;k<=n;k++) 
+                    c[i][j]+=a[i][k]*b[k][j];
+	}
+	t=clock();
+	double time=(t-s)/1000.0;
+	printf("time  is: %lf\n",time);
 	return 0;
 }
-
-
 
