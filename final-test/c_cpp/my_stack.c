@@ -1,50 +1,47 @@
-int InitStack(SqStack &S)
+#include "include/my_stack.h"
+
+pS InitStack()
 {
-  S.base=(int *)malloc(100*sizeof(int));
-  if(!S.base)
-    return 0;
-    S.top=S.base;
-    S.stacksize=100;
-    return 1;
+  pS S;
+  S=(pS)malloc(sizeof(SeqStack));
+  if(S!=NULL)
+  return S;
 }
-void stack_push(SqStack &S,int x)
+void stack_push( pS S,int x)
 {
-  if(S.top-S.base>=S.stacksize)
-  {
-    S.base=(int*)realloc(S.base,(S.stacksize+10*sizeof(int)));
-    S.stacksize+=10;
-    S.top=S.base+S.stacksize;
-  }
-  *S.top++=x;
-}
-int stack_pop(SqStack &S)
-{
-  int e;
-  if(S.top ==S.base)
-  {
-    printf("error");
-    return -100000;
-  }
+  if(S->top=STACKSIZE-1)
+    x=-1000000;
   else
-    e=S.top;
-  S.top--;
-  return e
+  {
+    S->top++;
+    S->data[S->top]=x;
+  }
+}
+int stack_pop(pS S,int *x)
+{
+  if(stack_empty(S)==1)
+    return 0;
+  else
+  {
+    *x=S->data[S->top];
+    S->top--;
+    return 1;
+  }
 }
 
-int stack_capacity(SqStack &S)
+int stack_capacity(pS S)
 {
-  return S.stacksize;
-}
-int stack_size(SqStack &S)
-{
-  int num;
-  num=S.top -S.base;
-  return S.stacksize-num;
+  return STACKSIZE;
 }
 
-int stack_is_empty(SqStack &S)
+int stack_size(pS S)
 {
-  if(S.top == S.base)
+  return STACKSIZE-S->top;
+}
+
+int stack_is_empty(pS S)
+{
+  if(S->top == 0)
     return 1;
   else
     return 0;
@@ -52,10 +49,9 @@ int stack_is_empty(SqStack &S)
 
 int stack_is_full(SqStack &S)
 {
-  if(S.top-S.base ==S.stacksize)
+  if(S.top==STACKSIZE)
     return 1;
   else
     return 0;
 }
-}
-}
+
