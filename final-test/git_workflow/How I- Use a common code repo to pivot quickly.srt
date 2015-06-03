@@ -173,6 +173,7 @@ For the front-end, I use AngularJS,  which has awesome dependency injection.
 44
 00:04:20,589 --> 00:04:27,310
 So it's very easy to throw around features  within your app-- also, again, important  when you're changing and pivoting ideas.
+所以抛去特征是非常容易的，后面的不懂了。。。
 
 45
 00:04:27,310 --> 00:04:33,870
