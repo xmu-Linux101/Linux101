@@ -2,21 +2,21 @@
 #define _MY_STACK_H
 
 #include<stdlib.h>
-struct SqStack
+#define STACKSIZE 100
+typedef struct
 {
-  int *top;
-  int *base;
-  int stacksize;
-}
-int InitStack(SqStack &S);
-void stack_push(SqStack &S,int x);
-int stack_pop(SqStack &S);
+  int data[STACKSIZE];
+  int top;
+}SeqStack,*pS;
+pS InitStack();
+void stack_push(pS S,int x);
+int stack_pop(pS S,int *x);
 
 // The capacity of the stack
-int stack_capacity(SqStack &S);
+int stack_capacity(pS S);
 
 // Current available size of the stack
-int stack_size(SqStack &S);
+int stack_size(pS S);
 
 
 /*
@@ -24,8 +24,8 @@ int stack_size(SqStack &S);
  * 0 - No
  * 1 - Yes
  */
-int stack_is_empty(SqStack &S);
-int stack_is_full(SqStack &S);
+int stack_is_empty(pS S);
+int stack_is_full(pS S);
 
 
 #endif //_MY_STACK_H
