@@ -7,7 +7,7 @@ int main(void)
 	int i,item;
 	int x[15];
 	printf("please input 10 numbers\n");
-	printf（"使用push函数和gettop函数\n"）;
+	printf("test stack_push() and GetTop()\n");
 	for(i=0;i<10;i++)
 	{
 		scanf("%d",&x[i]);
@@ -16,7 +16,7 @@ int main(void)
 		printf("%d ",item);
 	}
 	
-	printf("\n使用pop函数\n");
+	printf("\ntest stack_pop()\n");
 	for(i=0;i<10;i++)
 	{
 		stack_pop(ps,&item);
@@ -24,6 +24,6 @@ int main(void)
 	}
 
 	if(stack_is_empty(ps))
-		printf("\n该栈已空");
+		printf("\nthis stack is empty!");
 	return 0;
 }
