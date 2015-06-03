@@ -4,7 +4,7 @@
 
 #define length 10
 
-//int num=0,mystack[length];
+int num=0,mystack[length];
 
 int main(void) {
 	int x;	
