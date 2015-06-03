@@ -108,6 +108,7 @@ And once we're here, we can log in with our user account.
 
 28
 00:02:48,945 --> 00:02:58,700
+我们登陆登录使用的主页。
 And we land on the logged in home page.
 
 29
