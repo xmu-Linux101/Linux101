@@ -93,6 +93,7 @@ And then we log back in.
 24
 00:02:27,857 --> 00:02:30,440
 All right, now I'm going to show you these features in action.
+没关系，我现在示范一下。
 
 25
 00:02:30,440 --> 00:02:40,450
