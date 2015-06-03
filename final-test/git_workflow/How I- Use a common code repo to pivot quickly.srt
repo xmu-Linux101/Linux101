@@ -21,7 +21,7 @@ While working on different startup ideas,  I quickly realized there are common p
 6
 00:00:23,300 --> 00:00:29,320
 So I created an abstraction called emptyApp,  which combines these five features that I singled out.
-所�我创建了一个概念叫做空的APP ， 这个空的App联合了五个我挑选的特征。
+所�我创 建了一个概念叫做空的APP ， 这个空的App联合了五个我挑选的特征。
 
 7
 00:00:29,320 --> 00:00:52,720
