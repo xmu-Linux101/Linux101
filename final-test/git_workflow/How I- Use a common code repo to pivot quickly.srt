@@ -194,6 +194,7 @@ The Grunt task just watches for file changes and checks  the code and tells you 
 49
 00:04:46,610 --> 00:04:51,710
 This is the Karma tab, which runs all the front-end tasks.
+这是Karma标签，它执行所有的前置任务.
 
 50
 00:04:51,710 --> 00:04:57,970
