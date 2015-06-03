@@ -145,7 +145,7 @@ And from that point on, you can demo the app  on your local host.
 37
 00:03:52,140 --> 00:03:56,130
 It's a MongoDB database, so the whole app  is written in JavaScript.
-//MongoDB数据库,所以整个应用程序是用JavaScript编写的。
+MongoDB数据库,所以整个应用程序是用JavaScript编写的。
 38
 00:03:56,130 --> 00:03:58,460
 All my apps are written 100% in JavaScript.
