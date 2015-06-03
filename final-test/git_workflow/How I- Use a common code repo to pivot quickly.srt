@@ -209,7 +209,8 @@ There are three main folders for you to watch out for.
 
 53
 00:05:04,364 --> 00:05:07,870
-There is the Client folder, the Server folder,  and the Test folder.
+[MUSIC PLAYING] There is the Client folder, the Server folder,  and the Test folder.
+【背景音乐】 有客户端文件夹，服务器文件夹和测试文件夹。
 
 54
 00:05:07,870 --> 00:05:11,187
