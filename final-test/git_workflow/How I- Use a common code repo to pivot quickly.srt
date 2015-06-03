@@ -21,7 +21,7 @@ While working on different startup ideas,  I quickly realized there are common p
 6
 00:00:23,300 --> 00:00:29,320
 So I created an abstraction called emptyApp,  which combines these five features that I singled out.
-
+不会翻译
 7
 00:00:29,320 --> 00:00:52,720
 The five features are a landing page with an email sign up so  you can go online right away and start collecting emails  from people who are interested, a client-agnostic API  server that doesn't care if the front-end is a web  app or a mobile app, and then a front-end app, which  for me usually is the web app, since I think the web is  the biggest [INAUDIBLE] platform,  and then a user model, since you need to save your users.
