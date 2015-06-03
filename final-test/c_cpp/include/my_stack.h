@@ -1,5 +1,5 @@
-#ifndef _MY_STACK_H
-#define _MY_STACK_H
+#ifndef STACK_H
+#define STACK_H
 
 typedef int Item;
 typedef struct node * PNode;
