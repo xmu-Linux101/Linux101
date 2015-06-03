@@ -1,5 +1,5 @@
-mian:main.o my_stack.0
-	gcc main.o my_stack.0 -o main
+mian:main.o my_stack.o
+	gcc main.o my_stack.o -o main
 main.o:main.c
 	gcc -c main.c
 diff:main
