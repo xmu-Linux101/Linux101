@@ -45,6 +45,7 @@ So if you just enter an email address here,  you can link it up to a Mailchimp l
 12
 00:01:24,640 --> 00:01:29,530
 But then emptyApp also gives you real login functionality.
+但是emptyApp也赋予了你真正的登录功能
 
 13
 00:01:29,530 --> 00:01:42,980
