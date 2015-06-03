@@ -25,6 +25,7 @@ So I created an abstraction called emptyApp,  which combines these five features
 7
 00:00:29,320 --> 00:00:52,720
 The five features are a landing page with an email sign up so  you can go online right away and start collecting emails  from people who are interested, a client-agnostic API  server that doesn't care if the front-end is a web  app or a mobile app, and then a front-end app, which  for me usually is the web app, since I think the web is  the biggest [INAUDIBLE] platform,  and then a user model, since you need to save your users.
+这五个特性是一个电子邮件注册的网页,这样你就可以立即上网,开始收集感兴趣的人的电子邮件,用一个API服务器（不在乎前端是一个移动web应用程序或应用程序与否）,然后前端应用程序,这对我来说通常是web应用程序,因为我觉得网络是最大的[全场寂静]平台,然后一个用户模型,因为您需要保存你的用户。
 
 8
 00:00:52,720 --> 00:00:57,560
