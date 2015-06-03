@@ -85,6 +85,7 @@ And then, of course, you can do all this as well with  all the social media logi
 22
 00:02:18,010 --> 00:02:19,426
 So here we have Twitter activated.
+所以在这里激活我们的推特
 
 23
 00:02:19,426 --> 00:02:27,857
@@ -105,7 +106,6 @@ But then over here you see we have links  to the Join, links to the Login.
 27
 00:02:46,400 --> 00:02:48,945
 And once we're here, we can log in with our user account.
-一旦我们加入，我们可以用自己的用户名登录。
 
 28
 00:02:48,945 --> 00:02:58,700
