@@ -4,17 +4,17 @@
 
 int main(void) {
 	int x;	
-	SqStack s;
-	if(InitStack(s)==0)
+	pS s;
+	s=InitStack(s);
 		return 0;
         while ( ! stack_is_full(s) ) {
 		scanf("%d", &x);
-		stack_push(x);
+		stack_push(s,x);
 	}
 	
 
 	while ( !stack_is_empty(s) ) {
-		x = stack_pop();
+		x = stack_pop(s,&x);
 
 		printf("%d\t", x);
 	}
