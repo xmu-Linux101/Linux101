@@ -65,7 +65,7 @@ And then now you're logged in.
 17
 00:01:58,340 --> 00:02:04,130
 So if we try to go back to the homepage,  emptyApp will automatically log you back in.
-
+所以，如果我们试图回到主页，emptyapp会自动记录你回来。
 18
 00:02:04,130 --> 00:02:06,950
 And you're landing on the logged in home page.
