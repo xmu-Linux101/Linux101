@@ -241,6 +241,7 @@ So the other thing we talked about is the user model.
 61
 00:05:49,440 --> 00:05:56,710
 So if you look into the Server folder,  you can see it comes with just one model, which is the user.
+所以如果你看看服务器文件夹，你可以看到它只是一个模型，这是用户的。
 
 62
 00:05:56,710 --> 00:06:03,239
