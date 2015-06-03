@@ -3,18 +3,23 @@
 #include "include/my_stack.h"
 
 int main(void) {
-	int x;	
-
-        while ( ! stack_is_full() ) {
+	int x,cap;
+	Stack *ps = InitStack();
+	printf("Please define stack'cap\n");
+	scanf("%d",&cap);  	
+	printf("stack's cap is %d\n",cap);
+        while ( cap!=GetSize(ps)) {
 		scanf("%d", &x);
-		stack_push(x);
+		Push(ps,x);
+		printf("The %d's place is %d\n",GetSize(ps),x);
 	}
 	
+	printf("Now pop stack\n");
+	while ( !IsEmpty(ps) ) {
+		//printf("Now pop stack\n");
+		x=Pop(ps);
 
-	while ( !stack_is_empty() ) {
-		x = stack_pop();
-
-		printf("%d\t", x);
+		printf("%d\t",x);
 	}
 	printf("\n");
 

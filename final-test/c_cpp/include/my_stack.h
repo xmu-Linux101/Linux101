@@ -2,23 +2,48 @@
 #define _MY_STACK_H
 
 
-void stack_push(int x);
-int stack_pop();
 
-// The capacity of the stack
-int stack_capacity();
+typedef int Item;
+typedef struct node * PNode;
+/*定义栈节点类型*/
+typedef struct node
+{
+	Item data;
+	PNode down;
+}Node;
+/*定义栈类型*/
+typedef struct stack
+{
+	PNode top;
+	int size;
+}Stack;
+/*构造一个空栈*/
+Stack *InitStack();
 
-// Current available size of the stack
-int stack_size();
+/*销毁一个栈*/
+void DestroyStack(Stack *ps);
 
+/*把栈置空*/
+void ClearStack(Stack *ps);
 
-/*
- * return 0/1 to check if stack is empty or full
- * 0 - No
- * 1 - Yes
- */
-int stack_is_empty();
-int stack_is_full();
+/*判定是否为空栈*/
+int IsEmpty(Stack *ps);
+
+/*返回栈大小*/
+int GetSize(Stack *ps);
+
+/*返回栈顶元素*/
+PNode GetTop(Stack *ps,Item *pitem);
+
+/*元素入栈*/
+PNode Push(Stack *ps,Item item);
+
+/*元素出栈*/
+int Pop(Stack *ps);
+
+/*遍历栈并访问visit函数*/
+void StackTraverse(Stack *ps,void (*visit)());
+
 
 
 #endif //_MY_STACK_H
