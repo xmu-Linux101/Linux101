@@ -1,7 +1,16 @@
 #include <stdio.h>
 
 #include "include/my_stack.h"
-
+#define STACK_INT_SIZE 100
+#define STACKINCREMENT 10
+/*typedef struct
+{
+int *base;
+int *top;
+int stack_size;
+}sqstack;
+sqstack s;
+*/
 int main(void) {
 	int x;	
 
