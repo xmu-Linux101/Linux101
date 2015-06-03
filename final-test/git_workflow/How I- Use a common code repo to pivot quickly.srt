@@ -57,7 +57,7 @@ So obviously we get an error message.
 15
 00:01:45,660 --> 00:01:56,210
 But then if we go to Join, we can create this user.
-(但是如果我们加入，就能创建这个用户）
+(但是如果我们加入，就能创建这个用户.）
 
 16
 00:01:56,210 --> 00:01:58,340
