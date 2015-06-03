@@ -105,7 +105,6 @@ But then over here you see we have links  to the Join, links to the Login.
 27
 00:02:46,400 --> 00:02:48,945
 And once we're here, we can log in with our user account.
-一旦我们加入，我们可以用自己的用户名登录。
 
 28
 00:02:48,945 --> 00:02:58,700
