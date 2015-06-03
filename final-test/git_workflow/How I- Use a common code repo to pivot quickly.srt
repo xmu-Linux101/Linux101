@@ -222,7 +222,7 @@ But it's important to point out that the client and the server  are completely s
 56
 00:05:15,270 --> 00:05:23,085
 So this is the client-agnostic API server  I talked about previously where the client could  be, in this case, an AngularJS app.
-所以这是客户无关的API服务器我谈到以前在客户的可能，在这种情况下，一个AngularJS应用。
+所以这是客户无关的API服务器我谈到以前在客户的可能，在这种情况下一个AngularJS应用。
 57
 00:05:23,085 --> 00:05:29,330
 But it could also just be an iOS app or an Android  app that talks to your server.
