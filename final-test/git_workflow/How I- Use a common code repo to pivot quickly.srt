@@ -97,6 +97,7 @@ All right, now I'm going to show you these features in action.
 25
 00:02:30,440 --> 00:02:40,450
 So if we go to buzzr.io, you can see when you first  land on the app there's a landing page.
+所以如果我们去buzzr.io，你可以看到你第一次打开app的页面
 
 26
 00:02:40,450 --> 00:02:46,400
