@@ -6,7 +6,6 @@
 # chmod
 # edquota
 #
-
 while read myline
 do
     str=$myline
