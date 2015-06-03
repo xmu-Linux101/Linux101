@@ -157,6 +157,7 @@ Because you can use JavaScript on the front-end,  on the back-end, as well as to
 40
 00:04:03,120 --> 00:04:05,570
 So there's less mental overhead.
+I don't understand how to translate it.
 
 41
 00:04:05,570 --> 00:04:08,410
