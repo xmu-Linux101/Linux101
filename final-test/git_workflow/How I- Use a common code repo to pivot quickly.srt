@@ -149,6 +149,7 @@ It's a MongoDB database, so the whole app  is written in JavaScript.
 38
 00:03:56,130 --> 00:03:58,460
 All my apps are written 100% in JavaScript.
+我所有的app全部都用Javascript编写。
 
 39
 00:03:58,460 --> 00:04:03,120
