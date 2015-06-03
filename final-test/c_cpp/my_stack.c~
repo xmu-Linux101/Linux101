@@ -6,9 +6,6 @@
  */
 #
 #define MAXSIZE 10
-#include <stdio.h>
-#include <stdlib.h>
-#include "include/my_stack.h"
 typedef struct{
 	int data[MAXSIZE];
 	int top;
