@@ -197,6 +197,7 @@ This is the Karma tab, which runs all the front-end tasks.
 50
 00:04:51,710 --> 00:04:57,970
 And then this is the Server tab, which  watches for changes in server code  and restarts the server if it finds any.
+然后，这是．．．．不懂了 
 
 51
 00:04:57,970 --> 00:05:01,870
