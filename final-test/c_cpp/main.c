@@ -1,22 +1,29 @@
-#include <stdio.h>
+#include<stdio.h>
+#include"include/my_stack.h"
 
-#include "include/my_stack.h"
-
-int main(void) {
-	int x;	
-
-        while ( ! stack_is_full() ) {
-		scanf("%d", &x);
-		stack_push(x);
+int main(void) 
+{
+	Stack *ps = InitStack();
+	int i,item;
+	int x[15];
+	printf("please input 10 numbers\n");
+	printf（"使用push函数和gettop函数\n"）;
+	for(i=0;i<10;i++)
+	{
+		scanf("%d",&x[i]);
+		stack_push(ps,i);
+		GetTop(ps,&item);
+		printf("%d ",item);
 	}
 	
-
-	while ( !stack_is_empty() ) {
-		x = stack_pop();
-
-		printf("%d\t", x);
+	printf("\n使用pop函数\n");
+	for(i=0;i<10;i++)
+	{
+		stack_pop(ps,&item);
+		printf("%d ",item);
 	}
-	printf("\n");
 
+	if(stack_is_empty(ps))
+		printf("\n该栈已空");
 	return 0;
 }
