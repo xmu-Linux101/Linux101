@@ -207,6 +207,7 @@ So it's very great to be a front-end-agnostic server  back-end.
 47
 00:04:38,810 --> 00:04:39,860
 This is the Grunt task.
+这是Grunt的任务。
 
 48
 00:04:39,860 --> 00:04:46,610
