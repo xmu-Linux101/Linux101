@@ -182,6 +182,7 @@ So there's less mental overhead.
 41
 00:04:05,570 --> 00:04:08,410
 For the database, I use MongoDB.
+对于数据库，我使用MongoDB
 
 42
 00:04:08,410 --> 00:04:16,779
