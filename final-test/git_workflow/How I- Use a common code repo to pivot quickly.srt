@@ -153,6 +153,7 @@ So if you download the app, and then you want to start it,  what you do is you C
 34
 00:03:34,930 --> 00:03:37,960
 And then you just run the start script.
+然后你就可以运行你的开始脚本了。
 
 35
 00:03:37,960 --> 00:03:43,870
