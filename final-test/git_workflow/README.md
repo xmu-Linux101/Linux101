@@ -12,7 +12,7 @@
 + How I- Use a common code repo to pivot quickly.srt 一个视频的字幕文件
 + assign.txt 分工分配信息
 
-## 试题要求
+# 试题要求
 通过完整的Git工作流，协同完成字幕文件的翻译工作
 
 1. 将本仓库 fork 到个人自己的账户下
