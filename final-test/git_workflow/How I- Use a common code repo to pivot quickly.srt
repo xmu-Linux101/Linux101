@@ -215,6 +215,7 @@ This is the Grunt task.
 48
 00:04:39,860 --> 00:04:46,610
 The Grunt task just watches for file changes and checks  the code and tells you if something's  wrong and runs all your tests.
+我看不懂，不会翻译。
 
 49
 00:04:46,610 --> 00:04:51,710
