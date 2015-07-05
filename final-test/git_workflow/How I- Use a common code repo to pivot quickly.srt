@@ -39,6 +39,7 @@ Let's look at the five features in emptyApp  as they come from the repo when you
 10
 00:01:02,550 --> 00:01:12,710
 So this is emptyApp's landing page  where you can collect users' email addresses who  might be interested until you launch.
+所以这是emptyapp着陆页，在这里您可以收集用户的电子邮件地址的人会感兴趣，直到你发射。
 
 11
 00:01:12,710 --> 00:01:24,640
