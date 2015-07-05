@@ -18,7 +18,7 @@ And today I'm going to talk about how I use a common code  base to pivot to all 
 5
 00:00:17,830 --> 00:00:23,300
 While working on different startup ideas,  I quickly realized there are common parts to each idea.
-
+当研究不同的创业想法时，我很快意识到他们有共同的部分。
 6
 00:00:23,300 --> 00:00:29,320
 So I created an abstraction called emptyApp,  which combines these five features that I singled out.
