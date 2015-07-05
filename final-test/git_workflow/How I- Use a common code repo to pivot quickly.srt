@@ -259,6 +259,7 @@ So this is the client-agnostic API server  I talked about previously where the c
 57
 00:05:23,085 --> 00:05:29,330
 But it could also just be an iOS app or an Android  app that talks to your server.
+但是只有在ios或Android系统上与你的服务器相交互
 
 58
 00:05:29,330 --> 00:05:43,710
