@@ -142,6 +142,7 @@ So if you go to my username, stefanritter/emptyapp--  so there's a link right he
 31
 00:03:14,862 --> 00:03:17,070
 There are little instructions on how to do the setup.
+这里有一些如何安装的说明。
 
 32
 00:03:17,070 --> 00:03:25,920
