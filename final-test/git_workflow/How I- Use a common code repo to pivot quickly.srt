@@ -10,6 +10,7 @@ I'm Stefan, and I'm working on multiple projects  at the moment.
 3
 00:00:07,770 --> 00:00:12,240
 One is buzzr.io, one is fitguru.org,  and one is pickfeed.io.
+一个是buzzr.io，一个是fitguru.org，一个是pickfeed.io.
 
 4
 00:00:12,240 --> 00:00:17,830
