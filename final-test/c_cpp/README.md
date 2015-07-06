@@ -13,10 +13,31 @@
 + Makefile make的控制文件。
 
 ## 试题要求
+
 ### 实现my_stack.h中的功能函数
 + 实现代码放在my_stack.c中。
 + 如果使用C++语法，可以把文件改名为my_stack.cpp
 + 目录下不能同时有my_stack.c 和 my_stack.cpp，否则评分取最低分
+
 ### 实现Makefile
 + 实现make命令完成所有编译、链接工作
 + 实现make clean命令可以恢复代码为原始状态
+
+## 评分标准
+
+### Git Repository（1分）
++ 将代码保存在新建的独立于Linux101的仓库，1分
+
+### my_stack实现（8分）
++ stack初始化，2分
++ stack_push，1分
++ stack_pop，1分
++ stack_capacity，1分
++ stack_size，1分
++ stack_is_empty，1分
++ stack_is_full，1分
+
+### Makefile（6分）
++ make实现编译工作，2分
++ make实现链接工作，2分
++ make实现clean操作，2分
