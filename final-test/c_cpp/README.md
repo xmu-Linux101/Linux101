@@ -29,7 +29,8 @@
 + 将代码保存在新建的独立于Linux101的仓库，1分
 
 ### my_stack实现（8分）
-+ stack初始化，2分
++ include my_stack.h，1分
++ stack初始化（含作用域控制），1分
 + stack_push，1分
 + stack_pop，1分
 + stack_capacity，1分
