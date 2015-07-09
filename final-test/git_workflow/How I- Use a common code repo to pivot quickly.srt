@@ -213,6 +213,11 @@ And then for the server, I use Happy.js,  which is a server built specifically  
 00:04:33,870 --> 00:04:38,810
 So it's very great to be a front-end-agnostic server  back-end.
 
+22920132203891 ...
+I know how to translate it but my Linux doesn't support Chinese.
+Sorry.
+
+
 47
 00:04:38,810 --> 00:04:39,860
 This is the Grunt task.
