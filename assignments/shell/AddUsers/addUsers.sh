@@ -5,10 +5,13 @@
 # chmod
 # edquota
 #
-#~ case $1 in
-    #~ "add" ) echo 233;;
-    #~ "rm") 
-    #~ "chpwd")
-    #~ 
-    #~ *) echo "Unknown arguments.";;
-#~ esac
+case $1 in
+    "add" )
+        echo "ad here"
+        ;;
+    "rm")
+        ;;
+    "chpwd")
+        ;;
+    *) echo "Unknown arguments.";;
+esac
