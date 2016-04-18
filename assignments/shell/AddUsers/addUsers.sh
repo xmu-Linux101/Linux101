@@ -7,7 +7,7 @@
 #
 case $1 in
     "add" )
-        echo "ad here"
+        echo "add here"
         ;;
     "rm")
         ;;
