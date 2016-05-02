@@ -16,7 +16,7 @@ int divide(int x, int divisor) {
 	//除法考虑分母为0的情况
 	if(divisor==0){
 		printf("Error!divisor is negative！");
-		return 99999999;
+		return 0;
 	}
 	return x / divisor;
 }
