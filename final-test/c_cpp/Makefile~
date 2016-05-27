@@ -6,5 +6,5 @@ main.o:
 	gcc -c main.c
 clean:
 	if [ -e main ];then rm main;fi;
-	rm *.o
+	if [ -e *.o ];then rm *.o;fi;
 
