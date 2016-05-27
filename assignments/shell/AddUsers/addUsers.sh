@@ -6,12 +6,12 @@
 # edquota
 #
 case $1 in
-    "add" )
-        echo "add here"
-        ;;
-    "rm")
-        ;;
-    "chpwd")
-        ;;
-    *) echo "Unknown arguments.";;
+    'clean') for u in $(cat users.txt)
+            do sudo userdel $u
+        done
+    ;;
+    *) for u in $(cat users.txt)
+            do sudo useradd $u
+        done
+    ;;
 esac
