@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #
 # useradd
@@ -7,4 +6,4 @@
 # chmod
 # edquota
 #
-#echo
+

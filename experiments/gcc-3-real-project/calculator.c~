@@ -1,5 +1,5 @@
 #include "include/calculator.h"
-#include <stdio.h>
+#include"include.h"
 int sum(int x, int y) {
 	return x + y;
 }
