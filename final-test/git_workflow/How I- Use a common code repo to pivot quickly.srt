@@ -2,10 +2,12 @@ b
 1
 00:00:00,000 --> 00:00:04,950
 [MUSIC PLAYING]  STEFAN RITTER: Hi guys.
+[背景音乐]  STEFAN RITTER: 大家好。
 
 2
 00:00:04,950 --> 00:00:07,770
 I'm Stefan, and I'm working on multiple projects  at the moment.
+我叫斯蒂芬，此时我在工作。
 
 3
 00:00:07,770 --> 00:00:12,240
