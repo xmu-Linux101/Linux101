@@ -1,3 +1,4 @@
+b
 1
 00:00:00,000 --> 00:00:04,950
 [MUSIC PLAYING]  STEFAN RITTER: Hi guys.
@@ -17,7 +18,7 @@ And today I'm going to talk about how I use a common code  base to pivot to all 
 5
 00:00:17,830 --> 00:00:23,300
 While working on different startup ideas,  I quickly realized there are common parts to each idea.
-
+当研究不同的创业想法时，我很快意识到他们有共同的部分。
 6
 00:00:23,300 --> 00:00:29,320
 So I created an abstraction called emptyApp,  which combines these five features that I singled out.
@@ -25,6 +26,7 @@ So I created an abstraction called emptyApp,  which combines these five features
 7
 00:00:29,320 --> 00:00:52,720
 The five features are a landing page with an email sign up so  you can go online right away and start collecting emails  from people who are interested, a client-agnostic API  server that doesn't care if the front-end is a web  app or a mobile app, and then a front-end app, which  for me usually is the web app, since I think the web is  the biggest [INAUDIBLE] platform,  and then a user model, since you need to save your users.
+这五个特性是一个电子邮件注册的网页,这样你就可以立即上网,开始收集感兴趣的人的电子邮件,用一个API服务器（不在乎前端是一个移动web应用程序或应用程序与否）,然后前端应用程序,这对我来说通常是web应用程序,因为我觉得网络是最大的[全场寂静]平台,然后一个用户模型,因为您需要保存你的用户。
 
 8
 00:00:52,720 --> 00:00:57,560
@@ -37,14 +39,33 @@ Let's look at the five features in emptyApp  as they come from the repo when you
 10
 00:01:02,550 --> 00:01:12,710
 So this is emptyApp's landing page  where you can collect users' email addresses who  might be interested until you launch.
+所以这是emptyapp着陆页，在这里您可以收集用户的电子邮件地址的人会感兴趣，直到你发射。
 
 11
 00:01:12,710 --> 00:01:24,640
 So if you just enter an email address here,  you can link it up to a Mailchimp list  and collect email addresses that way.
+不会翻译
+A
+A
+A
+B
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+A
+
 
 12
 00:01:24,640 --> 00:01:29,530
 But then emptyApp also gives you real login functionality.
+但是emptyApp也赋予了你真正的登录功能
 
 13
 00:01:29,530 --> 00:01:42,980
@@ -57,6 +78,7 @@ So obviously we get an error message.
 15
 00:01:45,660 --> 00:01:56,210
 But then if we go to Join, we can create this user.
+(但是如果我们加入，就能创建这个用户.）
 
 16
 00:01:56,210 --> 00:01:58,340
@@ -93,10 +115,12 @@ And then we log back in.
 24
 00:02:27,857 --> 00:02:30,440
 All right, now I'm going to show you these features in action.
+没关系，我现在示范一下。
 
 25
 00:02:30,440 --> 00:02:40,450
 So if we go to buzzr.io, you can see when you first  land on the app there's a landing page.
+所以如果我们去buzzr.io，你可以看到你第一次打开app的页面
 
 26
 00:02:40,450 --> 00:02:46,400
@@ -105,9 +129,11 @@ But then over here you see we have links  to the Join, links to the Login.
 27
 00:02:46,400 --> 00:02:48,945
 And once we're here, we can log in with our user account.
+一旦我们加入，我们可以用自己的用户名登录。
 
 28
 00:02:48,945 --> 00:02:58,700
+我们登陆登录使用的主页。
 And we land on the logged in home page.
 
 29
@@ -121,6 +147,7 @@ So if you go to my username, stefanritter/emptyapp--  so there's a link right he
 31
 00:03:14,862 --> 00:03:17,070
 There are little instructions on how to do the setup.
+这里有一些如何安装的说明。
 
 32
 00:03:17,070 --> 00:03:25,920
@@ -133,6 +160,7 @@ So if you download the app, and then you want to start it,  what you do is you C
 34
 00:03:34,930 --> 00:03:37,960
 And then you just run the start script.
+然后你就可以运行你的开始脚本了。
 
 35
 00:03:37,960 --> 00:03:43,870
@@ -161,6 +189,7 @@ So there's less mental overhead.
 41
 00:04:05,570 --> 00:04:08,410
 For the database, I use MongoDB.
+对于数据库，我使用MongoDB
 
 42
 00:04:08,410 --> 00:04:16,779
@@ -173,10 +202,12 @@ For the front-end, I use AngularJS,  which has awesome dependency injection.
 44
 00:04:20,589 --> 00:04:27,310
 So it's very easy to throw around features  within your app-- also, again, important  when you're changing and pivoting ideas.
+所以抛去特征是非常容易的，后面的不懂了。。。
 
 45
 00:04:27,310 --> 00:04:33,870
 And then for the server, I use Happy.js,  which is a server built specifically  for being an API server.
+[zhe ge mei you han yu.]
 
 46
 00:04:33,870 --> 00:04:38,810
@@ -185,18 +216,22 @@ So it's very great to be a front-end-agnostic server  back-end.
 47
 00:04:38,810 --> 00:04:39,860
 This is the Grunt task.
+这是Grunt的任务。
 
 48
 00:04:39,860 --> 00:04:46,610
 The Grunt task just watches for file changes and checks  the code and tells you if something's  wrong and runs all your tests.
+我看不懂，不会翻译。
 
 49
 00:04:46,610 --> 00:04:51,710
 This is the Karma tab, which runs all the front-end tasks.
+这是Karma标签，它执行所有的前置任务.
 
 50
 00:04:51,710 --> 00:04:57,970
 And then this is the Server tab, which  watches for changes in server code  and restarts the server if it finds any.
+然后，这是．．．．不懂了 
 
 51
 00:04:57,970 --> 00:05:01,870
@@ -221,14 +256,17 @@ But it's important to point out that the client and the server  are completely s
 56
 00:05:15,270 --> 00:05:23,085
 So this is the client-agnostic API server  I talked about previously where the client could  be, in this case, an AngularJS app.
+所以这是客户无关的API服务器我谈到以前在客户的可能，在这种情况下，一个AngularJS应用。
 
 57
 00:05:23,085 --> 00:05:29,330
 But it could also just be an iOS app or an Android  app that talks to your server.
+但是只有在ios或Android系统上与你的服务器相交互
 
 58
 00:05:29,330 --> 00:05:43,710
 And so what happens is if you change something here,  Grunt will monitor the change, and then  build the front-end code again and inject it into the server.
+所以如果你改动了这儿的什么，Grunt会监视变动，然后重建前端代码，把它添加到服务器里。
 
 59
 00:05:43,710 --> 00:05:47,232
@@ -241,6 +279,7 @@ So the other thing we talked about is the user model.
 61
 00:05:49,440 --> 00:05:56,710
 So if you look into the Server folder,  you can see it comes with just one model, which is the user.
+所以如果你看看服务器文件夹，你可以看到它只是一个模型，这是用户的。
 
 62
 00:05:56,710 --> 00:06:03,239
@@ -253,6 +292,7 @@ The controllers are also very simple.
 64
 00:06:04,780 --> 00:06:09,550
 Their authentication controller handles all the login stuff  that we previously looked at.
+在他们的身份验证控制器处理完所以东西之前，我们就看着。
 
 65
 00:06:09,550 --> 00:06:14,400

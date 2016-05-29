@@ -6,6 +6,7 @@ b
 2
 00:00:04,950 --> 00:00:07,770
 I'm Stefan, and I'm working on multiple projects  at the moment.
+我叫斯蒂芬，此时我在工作。
 
 3
 00:00:07,770 --> 00:00:12,240
