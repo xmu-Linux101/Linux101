@@ -4,7 +4,7 @@
  * 但是记住g++才是编译C++的编译器
  *
  */
-#define MAXSIZE 5
+#define MAXSIZE 100
 int s[MAXSIZE];
 int base=0,top=0;
 void stack_push(int x)
