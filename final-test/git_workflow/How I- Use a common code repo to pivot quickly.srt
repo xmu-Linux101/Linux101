@@ -198,6 +198,7 @@ MongoDB is schemaless, so you can change fields on models  very quickly, which i
 43
 00:04:16,779 --> 00:04:20,589
 For the front-end, I use AngularJS,  which has awesome dependency injection.
+对于前端，我用AngularJS，具有令人敬畏的依赖注入.
 
 44
 00:04:20,589 --> 00:04:27,310

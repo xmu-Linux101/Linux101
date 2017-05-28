@@ -11,8 +11,6 @@
 
 #define length 10
 
-int num=0,mystack[length];
-
 
 int  stack_is_full()
 {

@@ -2,7 +2,7 @@ result:main my_stack
 	gcc main.o my_stack.o -o result
 
 main: main_clean main.c
-	gcc -c -O0 main.c
+	gcc -c -O2 main.c
 main_optimize: main_clean main.c
 	gcc -c -O2 main.c
 main_clean:
@@ -10,7 +10,7 @@ main_clean:
 	
 
 my_stack: my_stack_clean my_stack.c
-	gcc -c -O0 my_stack.c
+	gcc -c -O2 my_stack.c
 my_stack_optimize: my_stack_clean my_stack.c
 	gcc -c -O2 my_stack.c
 my_stack_clean:
