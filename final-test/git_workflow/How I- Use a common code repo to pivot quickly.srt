@@ -252,6 +252,7 @@ It's quite self explanatory what each includes.
 55
 00:05:11,187 --> 00:05:15,270
 But it's important to point out that the client and the server  are completely separate.
+但是，重要的是指出，客户端和服务器是完全分离的。
 
 56
 00:05:15,270 --> 00:05:23,085
