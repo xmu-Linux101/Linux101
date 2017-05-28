@@ -3,6 +3,10 @@
 #include "include/my_stack.h"
 
 int main(void) {
+        STACK s;
+        init(&s);
+             
+
 	int x;	
 
         while ( ! stack_is_full() ) {
