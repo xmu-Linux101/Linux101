@@ -143,6 +143,7 @@ All right, now let me show you what  the emptyApp looks like on GitHub.
 30
 00:03:02,930 --> 00:03:14,862
 So if you go to my username, stefanritter/emptyapp--  so there's a link right here so you can download and clone  the app.
+所以如果你去我的用户名,stefanritter / emptyapp—　链接在这里,这样你就可以下载和克隆软件。
 
 31
 00:03:14,862 --> 00:03:17,070
