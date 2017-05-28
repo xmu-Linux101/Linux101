@@ -73,7 +73,7 @@ So for example, if we try to log on like this,  this user doesn't exist.
 
 14
 00:01:42,980 --> 00:01:45,660
-So obviously we get an error message.
+所以明显我们得到了错误的信息
 
 15
 00:01:45,660 --> 00:01:56,210
