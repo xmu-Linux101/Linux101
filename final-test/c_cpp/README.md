@@ -25,18 +25,15 @@
 
 ## 评分标准
 
-### Git Repository（1分）
-+ 将代码保存在新建的独立于Linux101的仓库，1分
-
-### my_stack实现（8分）
+### my_stack实现（14分）
 + include my_stack.h，1分
 + stack初始化（含作用域控制），1分
-+ stack_push，1分
-+ stack_pop，1分
-+ stack_capacity，1分
-+ stack_size，1分
-+ stack_is_empty，1分
-+ stack_is_full，1分
++ stack_push，2分
++ stack_pop，2分
++ stack_capacity，2分
++ stack_size，2分
++ stack_is_empty，2分
++ stack_is_full，2分
 
 ### Makefile（6分）
 + make实现编译工作，2分
