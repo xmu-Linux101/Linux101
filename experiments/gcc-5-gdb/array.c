@@ -4,14 +4,14 @@
 
 void array_fill_with(int *array, int length, int fillWith) {
 	int i;
-	for (i = 0; i <= length; i++) {
+	for (i = 0; i < length; i++) {
 		array[i] = fillWith;
 	}
 }
 
 void array_add(int *arrayX, int *arrayY, int *arrayZ, int length) {
 	int i;
-	for (i = 0; i <= length; i++) {
+	for (i = 0; i < length; i++) {
 		arrayZ[i] = arrayX[i] + arrayY[i];
 	}
 }
